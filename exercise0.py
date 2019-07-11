@@ -73,4 +73,23 @@ print(fav_movies)
 
 #Exercise 4
 
-print(family_ages.range(0,30))
+#1 
+for member in family_ages:
+    if member <=30:
+        print(member)
+
+#2
+family_ages.sort()
+print(family_ages[-1])
+
+#3
+print(coin_flip.count('heads'))
+
+#4
+fav_artists.pop(2)
+print(fav_artists)
+
+#5
+print(cities['Toronto'])
+cities['Toronto'] = 2930001
+print(cities['Toronto'])
