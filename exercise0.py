@@ -54,3 +54,7 @@ print(cities['Toronto'])
 
 for artist in fav_artists:
     print("I think {} is great.".format(artist))
+
+#Exercise 3
+
+print(fav_artists[0:2])
