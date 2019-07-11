@@ -186,8 +186,8 @@ print(new_numbers_list)
    
 
 #6 
-for country, island in countries:
-    if island == False:
-        print(country)
+country_islands = []
+for country in countries: 
     if island == True:
-        print(country)
+        country_islands.append(country)
+        print(country_islands)
