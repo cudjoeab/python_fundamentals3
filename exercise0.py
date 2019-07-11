@@ -55,4 +55,18 @@ print(cities['Toronto'])
 for artist in fav_artists:
     print("I think {} is great.".format(artist))
 
+#Exercise 3
+#1
+print(fav_artists[0:2])
 
+#2
+for movie, year in fav_movies.items():
+    print("{} came out in {}.".format(movie, year))
+#3
+family_ages.sort()
+family_ages.reverse()
+print(family_ages)
+
+#4 
+fav_movies.update({'Beauty and the Beast': '1991 & 2017'})
+print(fav_movies)
