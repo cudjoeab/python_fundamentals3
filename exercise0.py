@@ -33,3 +33,12 @@ siblings = {
     'Dustin': 34,
     'Ekua': 25
 }
+
+#Exercise 1
+
+print(coin_flip)
+print(fav_colours[0])
+print(sorted(family_ages))
+family_ages.append(0)
+print(family_ages)
+print(fav_movies['Akira'])
