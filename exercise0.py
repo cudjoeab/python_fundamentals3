@@ -1,6 +1,6 @@
 #LISTS
 fav_colours = ['black', 'turqouise', 'yellow']
-family_ages = [25, 27, 34, 40, 41, 46]
+family_ages = [25, 46, 34, 40, 41, 27]
 coin_flip = ['tails', 'heads', 'tails', 'tails','tails']
 fav_artists = ['Janelle Monae', 'Tush', 'Lizzo']
 
@@ -45,4 +45,12 @@ print(fav_movies['Akira'])
 
 #Exercise 2
 
-print(fave_colours[-1])
+print(fav_colours[-1])
+cities.update({'Fort Erie': 30710 })
+print(cities)
+coin_flip.reverse()
+print(coin_flip)
+print(cities['Toronto'])
+
+for artist in fav_artists:
+    print("I think {} is great.".format(artist))
