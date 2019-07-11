@@ -70,3 +70,7 @@ print(family_ages)
 #4 
 fav_movies.update({'Beauty and the Beast': '1991 & 2017'})
 print(fav_movies)
+
+#Exercise 4
+
+print(family_ages.range(0,30))
