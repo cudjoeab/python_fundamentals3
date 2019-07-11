@@ -93,3 +93,35 @@ print(fav_artists)
 print(cities['Toronto'])
 cities['Toronto'] = 2930001
 print(cities['Toronto'])
+
+#Exercise 5 
+#1 
+total = 0
+
+for population in cities:
+    total
+
+#2 
+for sibling, age in siblings.items():
+    if age <= 30:
+        age = 'young'
+    else:
+        age = 'old'
+    print("{} is {}.".format(sibling,age))
+        
+
+#3 
+print(fav_colours[1:2+1])
+
+#4 increase everyones' age 
+
+for index, age in enumerate(family_ages):
+    family_ages[index] = age + 1
+
+print(family_ages)
+
+#5 adding two new colours 
+print(fav_colours)
+fav_colours.append('pink')
+fav_colours.append('lavender')
+print(fav_colours)
