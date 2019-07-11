@@ -125,3 +125,69 @@ print(fav_colours)
 fav_colours.append('pink')
 fav_colours.append('lavender')
 print(fav_colours)
+
+#Exercise 6 
+
+#1 
+movie_archive = {
+    1999: ['The Matrix', 'Star Wars: Episode 1', 'The Mummy'],
+    2009: ['Avatar', 'Star Trek', 'District 9'],
+    2019: ['How to Train Your Dragon 3', 'Toy Story 4', 'Star Wars: Episode 9']
+}
+#2
+phone_buttons = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+    ['*',0, '#']
+]
+
+#3
+countries = {
+    'Canada': {'N_America', False},
+    'Ghana': {'Africa', False},
+    'Australia': {'Australia', True}
+}
+
+#Exercise 7
+
+#1
+message = 'I will not skateboard in the halls.'
+
+print (message * 20)
+
+#2 list with message 
+
+detention = [message * 20]
+print(detention)
+
+#3 
+numbers_list= []
+for number in range(1,51):
+    numbers_list.append(number)
+print(numbers_list)
+
+
+#4 
+total = 0 
+for number in numbers_list:
+    total = total + number
+print(total)
+
+#5
+
+new_numbers_list= []
+for number in range(1,51):
+    for triple_number in range(1,4):
+        new_numbers_list.append(number)
+        
+print(new_numbers_list)
+
+   
+
+#6 
+for country, island in countries:
+    if island == False:
+        print(country)
+    if island == True:
+        print(country)
