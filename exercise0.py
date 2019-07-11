@@ -42,3 +42,7 @@ print(sorted(family_ages))
 family_ages.append(0)
 print(family_ages)
 print(fav_movies['Akira'])
+
+#Exercise 2
+
+print(fave_colours[-1])
