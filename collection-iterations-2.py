@@ -43,6 +43,40 @@ grocery_list.append('chicken')
 print(grocery_list)
 
 
+# EXERCISE 10
+
+students = {
+  'cohort1': 34,
+  'cohort2': 42,
+  'cohort3': 22
+}
+
+#3
+students.update({'cohort4': 43})
+
+#4
+print(students.keys())
+
+#5 change classroom size 
+
+for cohort, size in students.items():
+    new_size = size * 0.95
+    print('{} now has {} students.'.format(cohort,size))
+
+#6 delete 
+
+students.pop('cohort2')
+print(students)
+
+#7 total number of students 
+
+total = 0 
+for size in students:
+    total = total + size 
+    print('there are {} students.'.format(cohort,total))
+
+
+
 
 
 
