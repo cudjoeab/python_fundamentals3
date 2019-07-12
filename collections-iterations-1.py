@@ -143,11 +143,11 @@ phone_buttons = [
 ]
 
 #3
-countries = {
-    'Canada': {'N_America', False},
-    'Ghana': {'Africa', False},
-    'Australia': {'Australia', True}
-}
+# countries = {
+#     'Canada': ['N_America', False],
+#     'Ghana': ['Africa', False],
+#     'Australia': ['Australia', True]
+# }
 
 #Exercise 7
 
@@ -186,8 +186,16 @@ print(new_numbers_list)
    
 
 #6 
+countries = {
+    'Canada': ['N_America', False],
+    'Ghana': ['Africa', False],
+    'Australia': ['Australia', True]
+}
+
 country_islands = []
 for country in countries: 
-    if island == True:
+    print(countries[country][1])
+    if countries[country][1] == True:
         country_islands.append(country)
-        print(country_islands)
+
+print(country_islands)
