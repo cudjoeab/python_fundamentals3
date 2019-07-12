@@ -7,9 +7,23 @@ grocery_list = ['carrots','toilet paper','apples','salmon']
 
 #2 add rice 
 
+#new_item = input() --- can get user input 
 grocery_list.append('rice')
 for item in grocery_list:
    print(" * {}.".format(item))
+
+# # # create a function where we return instead of print 
+# def print_grocery_list(the_list):
+#     to_print = '' 
+#     for item in the_list:
+#         to_print += f'* {item}\n'
+#     return to_print 
+
+# grocery_list = ['carrots','toilet paper','apples','salmon']
+# print(grocery_list_display(grocery_list))
+# grocery_list.append('rice')
+# print(grocery_list_display(grocery_list))
+
 
 #3 length count
 print(len(grocery_list))
