@@ -18,6 +18,16 @@ for number in range(1,101):
     else: 
         print(number)
 
+#PizzaMaker
+
+print('How many pizzas do you want to order?')
+quantity =  int(input())
+
+pizzas = []
+for pizza in pizzas:
+    pizzas.append('pizza' + 1)
+    
+print(pizzas)
 
 
 
